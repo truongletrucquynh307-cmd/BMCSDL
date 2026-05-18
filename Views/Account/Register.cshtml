@@ -1,0 +1,50 @@
+﻿@model QLDH.Models.RegisterViewModel
+@{
+    ViewData["Title"] = "Đăng ký";
+    ViewData["ShowFooter"] = false;
+}
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow-lg p-4" style="width: 400px; border-radius: 12px;">
+        <h3 class="text-center text-primary mb-4">Đăng ký tài khoản</h3> <!-- text-primary -->
+
+        <form asp-action="Register" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <input asp-for="Manv" class="form-control mb-3" placeholder="Mã nhân viên" />
+            <span asp-validation-for="Manv" class="text-danger"></span>
+
+            <input asp-for="Tennv" class="form-control mb-3" placeholder="Tên nhân viên" />
+            <span asp-validation-for="Tennv" class="text-danger"></span>
+
+            <select asp-for="ChucVu" class="form-control mb-3">
+                <option value="">-- Chọn chức vụ --</option>
+                <option value="Bán hàng">Bán hàng</option>
+                <option value="Kho hàng">Kho hàng</option>
+            </select>
+            <span asp-validation-for="ChucVu" class="text-danger"></span>
+
+            <input asp-for="DiaChi" class="form-control mb-3" placeholder="Địa chỉ" />
+            <span asp-validation-for="DiaChi" class="text-danger"></span>
+
+            <input asp-for="Sdt" class="form-control mb-3" placeholder="Số điện thoại" />
+            <span asp-validation-for="Sdt" class="text-danger"></span>
+
+            <input asp-for="Email" class="form-control mb-3" placeholder="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+            <input asp-for="Matkhau" class="form-control mb-3" type="password" placeholder="Mật khẩu" />
+            <span asp-validation-for="Matkhau" class="text-danger"></span>
+
+            <input asp-for="NhapLaiMatkhau" class="form-control mb-3" type="password" placeholder="Nhập lại mật khẩu" />
+            <span asp-validation-for="NhapLaiMatkhau" class="text-danger"></span>
+
+            <button type="submit" class="btn btn-primary w-100 fw-semibold">Đăng ký</button> <!-- btn-primary -->
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

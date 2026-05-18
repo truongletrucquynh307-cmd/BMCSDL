@@ -1,0 +1,45 @@
+﻿@model QLDH.Models.LoginViewModel
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+    ViewData["ShowFooter"] = false;
+}
+
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow-lg p-4" style="width: 360px; border-radius: 12px;">
+        <h3 class="text-center text-primary mb-4">Đăng nhập</h3>
+
+        <form asp-action="Login" method="post">
+            <!-- Hiển thị lỗi tổng quát (ví dụ: Tài khoản không tồn tại, mật khẩu sai) -->
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-2"></div>
+
+            <div class="mb-3">
+                <input asp-for="Manv" class="form-control" placeholder="Mã nhân viên" />
+                <span asp-validation-for="Manv" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input asp-for="Matkhau" class="form-control" type="password" placeholder="Mật khẩu" />
+                <span asp-validation-for="Matkhau" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 fw-semibold">Đăng nhập</button>
+        </form>
+
+        <div class="text-center mt-2">
+            <a asp-controller="Account" asp-action="ChangePass" class="text-decoration-none">
+                Quên mật khẩu?
+            </a>
+        </div>
+
+        <div class="text-center mt-3">
+            <small class="text-muted">© 2025 Quản lý đơn hàng</small>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

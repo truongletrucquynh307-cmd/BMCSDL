@@ -1,0 +1,120 @@
+﻿<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+@model IEnumerable<QLDH.Models.SanPham>
+@{
+    ViewData["Title"] = "Sản phẩm";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+
+
+<!-- 🔹 Thanh top -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Logo -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Đăng xuất -->
+    <div class="ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<!-- 🔹 Nội dung chính -->
+<div class="container-fluid" style="margin-top:70px;">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4 class="mb-0"><strong>Sản phẩm</strong></h4>
+        <a asp-action="CreateSP" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Thêm sản phẩm
+        </a>
+    </div>
+
+    <!-- Thông báo sau khi thêm/xóa/sửa -->
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body">
+            <h5 class="card-title mb-3 text-primary">
+                <i class="bi bi-box"></i> Danh sách sản phẩm
+            </h5>
+
+            <table class="table table-hover align-middle">
+                <thead class="table-primary text-center">
+                    <tr>
+                        <th>Mã SP</th>
+                        <th>Tên SP</th>
+                        <th>Giá nhập</th>
+                        <th>Giá bán</th>
+                        <th>Số lượng tồn</th>
+                        <th>Ghi chú</th>
+                        <th>Ngày tạo</th>
+                        <th>Thao tác</th> 
+                    </tr>
+                </thead>
+
+                <tbody class="text-center">
+                    @if (Model != null && Model.Any())
+                    {
+                        foreach (var sp in Model)
+                        {
+                            <tr>
+                                <td>@sp.MASP</td>
+                                <td class="text-start">@sp.TENSP</td>
+                                <td>@string.Format("{0:N0}", sp.GIANHAP)</td>
+                                <td>@string.Format("{0:N0}", sp.GIABAN)</td>
+                                <td>@sp.SOLUONGTON</td>
+                                <td class="text-start">@sp.GHICHU</td>
+                                <td>@sp.NGAYTAO.ToString("dd/MM/yyyy")</td>
+                                <td>
+                                    <!-- Nút sửa -->
+                                    <a asp-action="EditSP" asp-route-id="@sp.MASP" class="btn btn-sm btn-warning me-2">
+                                        <i class="bi bi-pencil"></i>
+                                    </a>
+
+                                    <!-- Nút xóa -->
+                                    <form asp-controller="SanPham" asp-action="DeleteSP" method="post" style="display:inline;"
+                                          onsubmit="return confirm('Bạn có chắc muốn xóa sản phẩm này không?');">
+                                        @Html.AntiForgeryToken()
+                                        <input type="hidden" name="id" value="@sp.MASP" />
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            <i class="bi bi-trash"></i> Xóa
+                                        </button>
+                                    </form>
+
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="8" class="text-muted">Không có sản phẩm nào</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

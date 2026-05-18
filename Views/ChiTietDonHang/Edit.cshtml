@@ -1,0 +1,138 @@
+﻿@model QLDH.Models.ChiTietDonHang
+
+@{
+    ViewData["Title"] = "Chỉnh sửa Chi tiết đơn hàng";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<div class="container-fluid" style="margin-top:70px;">
+
+<h2>Chỉnh sửa Chi tiết đơn hàng</h2>
+
+<form asp-action="Edit" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <!-- Mã Đơn hàng -->
+    <div class="form-group">
+        <label>Mã Đơn hàng</label>
+        <select asp-for="MADH" class="form-control" disabled>
+            @foreach (var dh in ViewBag.DonHangList as List<SelectListItem>)
+            {
+                if (Model.MADH == dh.Value)
+                {
+                    @:<option value="@dh.Value" selected>@dh.Text</option>
+                }
+                else
+                {
+                    @:<option value="@dh.Value">@dh.Text</option>
+                }
+            }
+        </select>
+        <input type="hidden" asp-for="MADH" />
+    </div>
+
+    <!-- Sản phẩm -->
+    <div class="form-group">
+        <label>Tên Sản phẩm</label>
+        <select id="MASP" asp-for="MASP" class="form-control" required>
+            <option value="">-- Chọn sản phẩm --</option>
+            @foreach (var sp in ViewBag.SanPhamListRaw as List<QLDH.Models.SanPham>)
+            {
+                if (Model.MASP == sp.MASP)
+                {
+                    @:<option value="@sp.MASP" data-price="@sp.GIABAN" selected>@sp.TENSP</option>
+                }
+                else
+                {
+                    @:<option value="@sp.MASP" data-price="@sp.GIABAN">@sp.TENSP</option>
+                }
+            }
+        </select>
+    </div>
+
+    <!-- Số lượng -->
+    <div class="form-group">
+        <label>Số lượng</label>
+        <input asp-for="SOLUONG" class="form-control" required />
+    </div>
+
+    <!-- Đơn giá -->
+    <div class="form-group">
+        <label>Đơn giá</label>
+        <input id="DONGIA" asp-for="DONGIA" class="form-control" readonly />
+    </div>
+
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Lưu</button>
+        <a asp-action="IndexCTDH" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>
+
+<!-- Modal xác nhận đăng xuất -->
+<div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="logoutModalLabel">Xác nhận</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có muốn đăng xuất?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+                <a href="/Account/Logout" class="btn btn-danger">Đăng xuất</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        var maspSelect = document.getElementById("MASP");
+        var dongiaInput = document.getElementById("DONGIA");
+
+        // Load giá khi edit
+        window.onload = function() {
+            var selected = maspSelect.options[maspSelect.selectedIndex];
+            dongiaInput.value = selected?.getAttribute("data-price") || '';
+        };
+
+        // Khi thay đổi sản phẩm
+        maspSelect.addEventListener("change", function () {
+            var selected = this.options[this.selectedIndex];
+            dongiaInput.value = selected?.getAttribute("data-price") || '';
+        });
+    </script>
+}

@@ -1,0 +1,106 @@
+﻿@model QLDH.Models.HoaDon
+
+@{
+    ViewData["Title"] = "Tạo Hoá đơn";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<div class="container-fluid" style="margin-top:70px;">
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <!-- Mã Hoá đơn -->
+    <div class="form-group">
+        <label>Mã Hoá đơn</label>
+        <input asp-for="MAHD" class="form-control" readonly />
+    </div>
+
+    <!-- Chọn Đơn hàng -->
+    <div class="form-group">
+        <label>Mã đơn hàng</label>
+        <select id="MADH" name="MADH" class="form-control">
+            <option value="">-- Chọn đơn hàng --</option>
+            @foreach (var item in ViewBag.DonHangList)
+            {
+                <option value="@item.Value">@item.Text</option>
+            }
+        </select>
+    </div>
+
+    <!-- Ngày lập -->
+    <div class="form-group">
+        <label>Ngày lập</label>
+        <input asp-for="NGAYLAP" class="form-control" type="date" />
+    </div>
+
+    <!-- Phương thức TT -->
+    <div class="form-group">
+        <label>Phương thức thanh toán</label>
+        <select asp-for="PHUONGTHUCTT" class="form-control" asp-items="ViewBag.PhuongThucTTList">
+            <option value="">-- Chọn phương thức --</option>
+        </select>
+    </div>
+
+    <!-- Tổng tiền -->
+    <div class="form-group">
+        <label>Tổng tiền</label>
+        <input type="text" id="TONGTIEN" name="TONGTIEN" class="form-control" readonly />
+    </div>
+
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">Lưu</button>
+        <a asp-action="IndexHD" class="btn btn-secondary">Hủy</a>
+    </div>
+</form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        document.getElementById("MADH").addEventListener("change", function () {
+            var madh = this.value;
+
+            if (madh) {
+                fetch('/HoaDon/GetTongTien?madh=' + madh)
+                    .then(response => response.json())
+                    .then(data => {
+                        document.getElementById("TONGTIEN").value = data.toLocaleString();
+                    });
+            } else {
+                document.getElementById("TONGTIEN").value = "";
+            }
+        });
+    </script>
+}

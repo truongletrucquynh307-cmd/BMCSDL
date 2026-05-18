@@ -1,0 +1,81 @@
+﻿@model QLDH.Models.LoaiSanPham
+
+@{
+    ViewData["Title"] = "Cập nhật thông tin Loại sản phẩm";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Logo QLDH -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<div class="container-fluid" style="margin-top:70px;">
+    <h2 class="text-primary mb-3">Cập nhật thông tin Loại sản phẩm</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="MALOAISP" />
+
+        <div class="mb-3">
+            <label asp-for="MALOAISP" class="form-label">Mã loại</label>
+            <input asp-for="MALOAISP" class="form-control" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="TENLOAI" class="form-label">Tên loại</label>
+            <input asp-for="TENLOAI" class="form-control" />
+            <span asp-validation-for="TENLOAI" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Lưu</button>
+        <a asp-action="IndexLSP" class="btn btn-secondary">Hủy</a>
+    </form>
+ </div>
+
+<!-- Modal xác nhận đăng xuất -->
+<div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="logoutModalLabel">Xác nhận</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có muốn đăng xuất?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+                <a href="/Account/Logout" class="btn btn-danger">Đăng xuất</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

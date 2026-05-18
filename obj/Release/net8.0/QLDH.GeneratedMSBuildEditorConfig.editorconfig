@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QLDH
+build_property.RootNamespace = QLDH
+build_property.ProjectDir = D:\Bảo mật CSDL\code\QLDH\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Bảo mật CSDL\code\QLDH
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Account/ChangePass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Account/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/DonHang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/DonHang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/DonHang/IndexDH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9uSGFuZ1xJbmRleERILmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/KhachHang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/KhachHang/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/KhachHang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/KhachHang/IndexKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hIYW5nXEluZGV4S0guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/LoaiKhachHang/CreateLoaiKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haUtoYWNoSGFuZ1xDcmVhdGVMb2FpS0guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/LoaiKhachHang/DeleteLoaiKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haUtoYWNoSGFuZ1xEZWxldGVMb2FpS0guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/LoaiKhachHang/EditLoaiKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haUtoYWNoSGFuZ1xFZGl0TG9haUtILmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/LoaiKhachHang/IndexLoaiKH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haUtoYWNoSGFuZ1xJbmRleExvYWlLSC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/LoaiSanPham/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/LoaiSanPham/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/LoaiSanPham/IndexLSP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haVNhblBoYW1cSW5kZXhMU1AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/NhaCungCap/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/NhaCungCap/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/NhaCungCap/IndexNCC.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhQ3VuZ0NhcFxJbmRleE5DQy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/NhanVien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/NhanVien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/NhanVien/IndexNV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhblZpZW5cSW5kZXhOVi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/SanPham/CreateSP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxDcmVhdGVTUC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/SanPham/EditSP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxFZGl0U1AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/SanPham/IndexSP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FuUGhhbVxJbmRleFNQLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Bảo mật CSDL/code/QLDH/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-icvw7hxpem

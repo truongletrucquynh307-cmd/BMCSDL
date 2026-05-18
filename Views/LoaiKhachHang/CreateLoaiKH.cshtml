@@ -1,0 +1,76 @@
+﻿@model QLDH.Models.LoaiKhachHang
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+@{
+    ViewData["Title"] = "Thêm loại khách hàng";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<div style="height: 70px;"></div>
+
+<div class="container mt-4" style="max-width: 600px;">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-primary text-white fw-bold">
+            <i class="bi bi-plus-circle me-1"></i> Thêm loại khách hàng
+        </div>
+
+        <div class="card-body">
+            <form asp-action="CreateLoaiKH" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Mã loại khách hàng</label>
+                    <input type="hidden" asp-for="MALOAIKH" />
+                    <input class="form-control bg-light" value="@Model.MALOAIKH" readonly />
+                    @Html.ValidationMessageFor(m => m.MALOAIKH, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label fw-semibold">Tên loại khách hàng</label>
+                    <input asp-for="TENLOAIKH" class="form-control" placeholder="Nhập tên loại khách hàng" required />
+                    @Html.ValidationMessageFor(m => m.TENLOAIKH, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="d-flex justify-content-end mt-4">
+                    <a asp-action="IndexLoaiKH" class="btn btn-secondary me-2">
+                        <i class="bi bi-x-circle"></i> Hủy
+                    </a>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save"></i> Lưu
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

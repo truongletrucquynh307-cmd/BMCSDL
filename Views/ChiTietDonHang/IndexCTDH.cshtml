@@ -1,0 +1,138 @@
+﻿@model IEnumerable<QLDH.Models.ChiTietDonHang>
+
+@{
+    ViewData["Title"] = "Danh sách Chi tiết đơn hàng";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<div class="container-fluid" style="margin-top:70px;">
+
+<h2>Danh sách Chi tiết Đơn hàng</h2>
+
+<a class="btn btn-primary mb-3" href="/ChiTietDonHang/Create">Tạo Chi Tiết Đơn Hàng</a>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Mã đơn hàng</th>
+                <th>Tên sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.MADH</td>
+                    <td>@item.SanPham?.TENSP</td> <!-- hiển thị tên sản phẩm -->
+                    <td>@item.SOLUONG</td>
+                    <td>@item.DONGIA</td>
+                    <td>
+                        <a class="btn btn-warning btn-sm"
+                           href="/ChiTietDonHang/Edit?MADH=@item.MADH&MASP=@item.MASP">
+                            Sửa
+                        </a>
+                        <button class="btn btn-danger btn-sm"
+                                onclick="confirmDelete('@item.MADH','@item.MASP')">
+                            Xoá
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+<!-- Modal Xác nhận Delete -->
+<div id="deleteModal" class="modal" style="display:none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Xác nhận xóa</h5>
+            </div>
+            <div class="modal-body">
+                <p>Bạn có chắc chắn muốn xóa chi tiết đơn hàng này?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal()">Hủy</button>
+                <form id="deleteForm" method="post" asp-action="DeleteConfirmed">
+                    <input type="hidden" name="MADH" id="deleteMADH" />
+                    <input type="hidden" name="MASP" id="deleteMASP" />
+                    <button type="submit" class="btn btn-danger">Xóa</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Modal xác nhận đăng xuất -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="logoutModalLabel">Xác nhận</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Đóng"></button>
+                </div>
+                <div class="modal-body">
+                    Bạn có muốn đăng xuất?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+                    <a href="/Account/Logout" class="btn btn-danger">Đăng xuất</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function confirmDelete(MADH, MASP) {
+        document.getElementById("deleteModal").style.display = "block";
+        document.getElementById("deleteMADH").value = MADH;
+        document.getElementById("deleteMASP").value = MASP;
+    }
+
+    function closeModal() {
+        document.getElementById("deleteModal").style.display = "none";
+    }
+</script>
+
+<style>
+    .modal {
+        position: fixed;
+        background: rgba(0,0,0,0.6);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 120px;
+    }
+</style>

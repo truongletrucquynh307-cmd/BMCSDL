@@ -1,0 +1,153 @@
+@model QLDH.Models.AuditLog
+@{
+    ViewData["Title"] = "Chi tiết Nhật ký";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <!-- Header -->
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2>
+                    <i class="bi bi-file-text text-primary me-2"></i>Chi tiết Nhật ký #@Model.Id
+                </h2>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left me-1"></i>Quay lại
+                </a>
+            </div>
+
+            <!-- Thông tin chính -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-primary text-white">
+                    <i class="bi bi-info-circle me-2"></i>Thông tin hoạt động
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label small text-muted">Thời gian</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-clock"></i></span>
+                                <input type="text" class="form-control" 
+                                       value="@Model.Timestamp.ToString("dd/MM/yyyy HH:mm:ss")" readonly>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small text-muted">Người thực hiện</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                <input type="text" class="form-control" value="@Model.UserName" readonly>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small text-muted">Hành động</label>
+                            @{
+                                var actionBadgeClass = Model.Action switch
+                                {
+                                    "Create" => "bg-success",
+                                    "Update" => "bg-warning text-dark",
+                                    "Delete" => "bg-danger",
+                                    "Login" => "bg-primary",
+                                    "Logout" => "bg-secondary",
+                                    "View" => "bg-info",
+                                    "Export" => "bg-dark",
+                                    _ => "bg-secondary"
+                                };
+                            }
+                            <div>
+                                <span class="badge @actionBadgeClass fs-6 px-3 py-2">@Model.Action</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small text-muted">Địa chỉ IP</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-globe"></i></span>
+                                <input type="text" class="form-control font-monospace" 
+                                       value="@(Model.IpAddress ?? "N/A")" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Đối tượng -->
+            <div class="card shadow-sm mb-4">
+                <div class="card-header bg-info text-white">
+                    <i class="bi bi-database me-2"></i>Đối tượng liên quan
+                </div>
+                <div class="card-body">
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label class="form-label small text-muted">Loại đối tượng</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-box"></i></span>
+                                <input type="text" class="form-control" value="@Model.EntityType" readonly>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label small text-muted">ID đối tượng</label>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-key"></i></span>
+                                <input type="text" class="form-control font-monospace" 
+                                       value="@(Model.EntityId ?? "N/A")" readonly>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mô tả -->
+            @if (!string.IsNullOrEmpty(Model.Description))
+            {
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-secondary text-white">
+                        <i class="bi bi-chat-left-text me-2"></i>Mô tả chi tiết
+                    </div>
+                    <div class="card-body">
+                        <pre class="mb-0 p-3 bg-light rounded" style="white-space: pre-wrap;">@Model.Description</pre>
+                    </div>
+                </div>
+            }
+
+            <!-- Dữ liệu cũ -->
+            @if (!string.IsNullOrEmpty(Model.OldValues))
+            {
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-warning">
+                        <i class="bi bi-file-earmark-minus me-2"></i>Dữ liệu cũ (trước thay đổi)
+                    </div>
+                    <div class="card-body">
+                        <pre class="mb-0 p-3 bg-light rounded small" style="white-space: pre-wrap; overflow-x: auto;">@Model.OldValues</pre>
+                    </div>
+                </div>
+            }
+
+            <!-- Dữ liệu mới -->
+            @if (!string.IsNullOrEmpty(Model.NewValues))
+            {
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-success text-white">
+                        <i class="bi bi-file-earmark-plus me-2"></i>Dữ liệu mới (sau thay đổi)
+                    </div>
+                    <div class="card-body">
+                        <pre class="mb-0 p-3 bg-light rounded small" style="white-space: pre-wrap; overflow-x: auto;">@Model.NewValues</pre>
+                    </div>
+                </div>
+            }
+
+            <!-- Nút điều hướng -->
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="bi bi-arrow-left me-1"></i>Quay lại danh sách
+                </a>
+                <a asp-controller="Account" asp-action="Dashboard" class="btn btn-primary">
+                    <i class="bi bi-house me-1"></i>Về Dashboard
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

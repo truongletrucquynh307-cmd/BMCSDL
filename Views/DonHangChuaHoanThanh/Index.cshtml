@@ -1,0 +1,72 @@
+﻿@model IEnumerable<QLDH.Models.DonHang>
+
+@{
+    ViewData["Title"] = "Danh sách Đơn hàng chưa hoàn thành";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+
+<div class="container-fluid" style="margin-top:70px;">
+
+<h2>Danh sách Đơn hàng đang xử lý</h2>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Mã đơn hàng</th>
+            <th>Ngày lập</th>
+            <th>Ngày hoàn thành</th>
+            <th>Trạng thái</th>
+            <th>Tên khách hàng</th>
+            <th>Tên nhân viên</th>
+            <th>Chức năng</th> <!-- cột nút Sửa -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dh in Model)
+        {
+            <tr>
+                <td>@dh.MADH</td>
+                <td>@dh.NGAYLAP.ToShortDateString()</td>
+                <td>@dh.NGAYHT?.ToShortDateString()</td>
+                <td>@dh.TRANGTHAI</td>
+                <td>@dh.KhachHang?.TENKH</td>
+                <td>@dh.NhanVien?.TENNV</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@dh.MADH" class="btn btn-sm btn-primary">
+                        Sửa
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

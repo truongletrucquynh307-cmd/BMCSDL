@@ -1,0 +1,64 @@
+﻿@model QLDH.Models.NhaCungCap
+
+@{
+    ViewData["Title"] = "Cập nhật thông tin nhà cung cấp";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<div class="container-fluid" style="margin-top:70px;">
+    <h2 class="text-primary mb-3">Cập nhật thông tin Nhà Cung Cấp</h2>
+
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="MANCC" />
+
+        <div class="mb-3">
+            <label asp-for="TENNCC" class="form-label">Tên NCC</label>
+            <input asp-for="TENNCC" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="DIACHI" class="form-label">Địa chỉ</label>
+            <input asp-for="DIACHI" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="SDT" class="form-label">SĐT</label>
+            <input asp-for="SDT" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="EMAIL" class="form-label"></label>
+            <input asp-for="EMAIL" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Lưu</button>
+        <a asp-action="IndexNCC" class="btn btn-secondary">Hủy</a>
+    </form>
+
+</div>
+

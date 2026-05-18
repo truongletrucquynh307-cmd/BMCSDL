@@ -1,0 +1,94 @@
+﻿@model QLDH.Models.KhachHang
+
+@{
+    ViewData["Title"] = "Sửa khách hàng";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+
+<div class="container-fluid" style="margin-top:70px;">
+    <h2>Cập nhật thông tin khách hàng</h2>
+
+    <form asp-action="Edit" method="post" class="mt-3">
+        <!-- Giữ lại mã khách hàng để post về -->
+        <input type="hidden" asp-for="MAKH" />
+
+        <div class="mb-3">
+            <label asp-for="TENKH" class="form-label">Tên khách hàng</label>
+            <input asp-for="TENKH" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DIACHI" class="form-label">Địa chỉ</label>
+            <input asp-for="DIACHI" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="SDT" class="form-label">Số điện thoại</label>
+            <input asp-for="SDT" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="EMAIL" class="form-label">Email</label>
+            <input asp-for="EMAIL" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="MALOAIKH" class="form-label">Mã loại khách hàng</label>
+            <input asp-for="MALOAIKH" class="form-control" />
+        </div>
+
+        <!-- Nút lưu và quay lại -->
+        <div class="d-flex gap-2 mt-3">
+            <button type="submit" class="btn btn-primary">Lưu</button>
+            <a asp-action="IndexKH" class="btn btn-secondary">Quay lại</a>
+        </div>
+    </form>
+ </div>
+
+<!-- Modal xác nhận đăng xuất -->
+<div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="logoutModalLabel">Xác nhận</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Đóng"></button>
+            </div>
+            <div class="modal-body">
+                Bạn có muốn đăng xuất?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+                <a href="/Account/Logout" class="btn btn-danger">Đăng xuất</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,84 @@
+﻿@model QLDH.Models.LoaiKhachHang
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+@{
+    ViewData["Title"] = "Sửa loại khách hàng";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+<div style="height: 70px;"></div>
+
+<div class="container mt-4">
+    <div class="card shadow-sm border-0">
+        <div class="card-header bg-primary text-white fw-bold">
+            <i class="bi bi-pencil-square me-2"></i> Cập nhật loại khách hàng
+        </div>
+
+        <div class="card-body">
+            <form asp-action="EditLoaiKH" method="post">
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label asp-for="MALOAIKH" class="form-label fw-semibold">Mã loại khách hàng</label>
+                    <input asp-for="MALOAIKH" class="form-control" readonly />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="TENLOAIKH" class="form-label fw-semibold">Tên loại khách hàng</label>
+                    <input asp-for="TENLOAIKH" class="form-control" required />
+                    <span asp-validation-for="TENLOAIKH" class="text-danger"></span>
+                </div>
+
+                <!-- NÚT CHUNG 1 HÀNG -->
+                <div class="d-flex justify-content-between mt-3">
+                    <a asp-action="IndexLoaiKH" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left-circle"></i> Quay lại
+                    </a>
+
+                    <div class="d-flex">
+                        <button type="submit" class="btn btn-success me-2">
+                            <i class="bi bi-check-circle"></i> Cập nhật
+                        </button>
+
+                        <form asp-action="DeleteLoaiKH" method="post"
+                              onsubmit="return confirm('Bạn có chắc muốn xóa loại khách hàng này không?');">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="MALOAIKH" value="@Model.MALOAIKH" />
+                            <button type="submit" class="btn btn-danger">
+                                <i class="bi bi-trash"></i> Xóa
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

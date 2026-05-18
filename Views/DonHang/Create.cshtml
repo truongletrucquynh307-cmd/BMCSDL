@@ -1,0 +1,97 @@
+﻿@model QLDH.Models.DonHang
+@{
+    ViewData["Title"] = "Thêm Đơn hàng";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+
+<div class="container-fluid" style="margin-top:70px;">
+    <h2>Thêm Đơn hàng</h2>
+
+    @* Hiển thị lỗi server-side *@
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <form asp-action="Create" method="post">
+        <div class="mb-3">
+            <label asp-for="MADH"></label>
+            <input asp-for="MADH" class="form-control" readonly />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="NGAYLAP"></label>
+            <input asp-for="NGAYLAP" type="date" class="form-control" />
+            <span asp-validation-for="NGAYLAP" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="MAKH">Khách hàng</label>
+            <select asp-for="MAKH" class="form-select" asp-items="ViewBag.KhachHangList as SelectList">
+                <option value="">-- Chọn khách hàng --</option>
+            </select>
+            <span asp-validation-for="MAKH" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="MANV">Nhân viên</label>
+            <select asp-for="MANV" class="form-select" asp-items="ViewBag.NhanVienList as SelectList">
+                <option value="">-- Chọn nhân viên --</option>
+            </select>
+            <span asp-validation-for="MANV" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Lưu</button>
+        <a asp-action="IndexDH" class="btn btn-secondary">Hủy</a>
+    </form>
+
+    <!-- Modal xác nhận đăng xuất -->
+    <div class="modal fade" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary text-white">
+                    <h5 class="modal-title" id="logoutModalLabel">Xác nhận</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Đóng"></button>
+                </div>
+                <div class="modal-body">
+                    Bạn có muốn đăng xuất?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+                    <a href="/Account/Logout" class="btn btn-danger">Đăng xuất</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

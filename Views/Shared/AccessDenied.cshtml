@@ -1,0 +1,44 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Không có quyền truy cập";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        Truy cập bị từ chối
+                    </h4>
+                </div>
+                <div class="card-body text-center">
+                    <div class="mb-4">
+                        <i class="fas fa-lock fa-5x text-danger"></i>
+                    </div>
+                    <h5 class="card-title">Bạn không có quyền truy cập trang này</h5>
+                    <p class="card-text text-muted">
+                        Vai trò hiện tại của bạn không được phép thực hiện thao tác này.
+                        Vui lòng liên hệ quản trị viên nếu bạn cho rằng đây là lỗi.
+                    </p>
+                    <hr>
+                    <div class="d-flex justify-content-center gap-2">
+                        <a href="@Url.Action("Dashboard", "Account")" class="btn btn-primary">
+                            <i class="fas fa-home me-1"></i> Về trang chủ
+                        </a>
+                        <button onclick="history.back()" class="btn btn-secondary">
+                            <i class="fas fa-arrow-left me-1"></i> Quay lại
+                        </button>
+                    </div>
+                </div>
+                <div class="card-footer bg-light">
+                    <small class="text-muted">
+                        <strong>Vai trò:</strong> @Context.Session.GetString("VaiTro") |
+                        <strong>Mã NV:</strong> @Context.Session.GetString("MaNV")
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

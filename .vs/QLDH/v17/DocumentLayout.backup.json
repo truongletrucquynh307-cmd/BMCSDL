@@ -1,0 +1,973 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\services\\aesgcmhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:services\\aesgcmhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\hoadoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\donhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\authorization\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:authorization\\permissions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\auditlog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\auditlog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\auditlog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\auditlog\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\authorization\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:authorization\\authorizationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\donhang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\donhang\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\nhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\services\\oracleauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:services\\oracleauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\donhangchuahoanthanh\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\donhangchuahoanthanh\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\donhangchuahoanthanh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\donhangchuahoanthanh\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\donhangchuahoanthanhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\donhangchuahoanthanhcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\hoadon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\hoadon\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\hoadon\\indexhd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\hoadon\\indexhd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\nhanvien\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\loaikhachhang\\editloaikh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\loaikhachhang\\editloaikh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\loaikhachhang\\indexloaikh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\loaikhachhang\\indexloaikh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\sanpham\\indexsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\sanpham\\indexsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\loaikhachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\loaikhachhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\sanpham\\createsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\sanpham\\createsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\chitietdonhang\\indexctdh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\chitietdonhang\\indexctdh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\loaikhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\loaikhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\loaikhachhang\\createloaikh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\loaikhachhang\\createloaikh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\nhacungcapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\nhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\chitietdonhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\chitietdonhang\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\chitietdonhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\chitietdonhangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\donhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\dskh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\dskh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\loaisanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\loaisanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\loaisanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\services\\cryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:services\\cryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\khachhang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\khachhang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\qldhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\qldhcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\services\\khachhangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:services\\khachhangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\changepassviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\changepassviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\taikhoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\views\\account\\changepass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:views\\account\\changepass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|c:\\users\\dell\\documents\\f\\b\u1EA3o m\u1EADt csdl\\qldh\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8A0D0CE2-8EBA-4294-804E-F6C875290281}|QLDH.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\AuditLog\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\AuditLog\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\AuditLog\\Details.cshtml",
+              "RelativeToolTip": "Views\\AuditLog\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T17:56:05.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Account\\Dashboard.cshtml",
+              "ViewState": "AgIAABcBAAAAAAAAAAAvwCgBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T01:25:43.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DonHangController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\DonHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DonHangController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\DonHangController.cs",
+              "RelativeToolTip": "Controllers\\DonHangController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwC4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T19:54:42.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HoaDonController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\HoaDonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HoaDonController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\HoaDonController.cs",
+              "RelativeToolTip": "Controllers\\HoaDonController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T19:55:32.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AesGcmHelper.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\AesGcmHelper.cs",
+              "RelativeDocumentMoniker": "Services\\AesGcmHelper.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\AesGcmHelper.cs",
+              "RelativeToolTip": "Services\\AesGcmHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T15:51:00.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\KhachHang.cs",
+              "RelativeDocumentMoniker": "Controllers\\KhachHang.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\KhachHang.cs",
+              "RelativeToolTip": "Controllers\\KhachHang.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwCEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:19:07.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\AuditLog\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AuditLog\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\AuditLog\\Index.cshtml",
+              "RelativeToolTip": "Views\\AuditLog\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-15T17:56:28.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Permissions.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Authorization\\Permissions.cs",
+              "RelativeDocumentMoniker": "Authorization\\Permissions.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Authorization\\Permissions.cs",
+              "RelativeToolTip": "Authorization\\Permissions.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAA/wKoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:14:30.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthorizationService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Authorization\\AuthorizationService.cs",
+              "RelativeDocumentMoniker": "Authorization\\AuthorizationService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Authorization\\AuthorizationService.cs",
+              "RelativeToolTip": "Authorization\\AuthorizationService.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJ4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T18:01:25.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T10:52:10.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OracleAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\OracleAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\OracleAuthService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\OracleAuthService.cs",
+              "RelativeToolTip": "Services\\OracleAuthService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAgwEMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T10:43:55.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-28T10:37:36.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\DonHang\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\DonHang\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\DonHang\\Create.cshtml",
+              "RelativeToolTip": "Views\\DonHang\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T07:53:53.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NhanVienController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\NhanVienController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhanVienController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\NhanVienController.cs",
+              "RelativeToolTip": "Controllers\\NhanVienController.cs",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAgwNwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T19:24:37.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\DonHangChuaHoanThanh\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\DonHangChuaHoanThanh\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\DonHangChuaHoanThanh\\Edit.cshtml",
+              "RelativeToolTip": "Views\\DonHangChuaHoanThanh\\Edit.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T07:19:51.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\DonHangChuaHoanThanh\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DonHangChuaHoanThanh\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\DonHangChuaHoanThanh\\Index.cshtml",
+              "RelativeToolTip": "Views\\DonHangChuaHoanThanh\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T06:46:07.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DonHangChuaHoanThanhController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\DonHangChuaHoanThanhController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DonHangChuaHoanThanhController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\DonHangChuaHoanThanhController.cs",
+              "RelativeToolTip": "Controllers\\DonHangChuaHoanThanhController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:49:07.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\HoaDon\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\HoaDon\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\HoaDon\\Edit.cshtml",
+              "RelativeToolTip": "Views\\HoaDon\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T06:17:33.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IndexHD.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\HoaDon\\IndexHD.cshtml",
+              "RelativeDocumentMoniker": "Views\\HoaDon\\IndexHD.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\HoaDon\\IndexHD.cshtml",
+              "RelativeToolTip": "Views\\HoaDon\\IndexHD.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T19:59:41.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\HoaDon.cs",
+              "RelativeDocumentMoniker": "Models\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\HoaDon.cs",
+              "RelativeToolTip": "Models\\HoaDon.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T06:18:47.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\NhanVien.cs",
+              "RelativeToolTip": "Models\\NhanVien.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:13:32.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAawFkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T02:25:43.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\NhanVien\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NhanVien\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\NhanVien\\Create.cshtml",
+              "RelativeToolTip": "Views\\NhanVien\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAawDYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T02:25:02.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditLoaiKH.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\LoaiKhachHang\\EditLoaiKH.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoaiKhachHang\\EditLoaiKH.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\LoaiKhachHang\\EditLoaiKH.cshtml",
+              "RelativeToolTip": "Views\\LoaiKhachHang\\EditLoaiKH.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T01:39:00.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateSP.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\SanPham\\CreateSP.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPham\\CreateSP.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\SanPham\\CreateSP.cshtml",
+              "RelativeToolTip": "Views\\SanPham\\CreateSP.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAIwFwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T12:49:03.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwBoAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T17:30:54.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IndexSP.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\SanPham\\IndexSP.cshtml",
+              "RelativeDocumentMoniker": "Views\\SanPham\\IndexSP.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\SanPham\\IndexSP.cshtml",
+              "RelativeToolTip": "Views\\SanPham\\IndexSP.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAF0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-10T01:38:15.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IndexLoaiKH.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\LoaiKhachHang\\IndexLoaiKH.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoaiKhachHang\\IndexLoaiKH.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\LoaiKhachHang\\IndexLoaiKH.cshtml",
+              "RelativeToolTip": "Views\\LoaiKhachHang\\IndexLoaiKH.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T12:24:28.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CreateLoaiKH.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\LoaiKhachHang\\CreateLoaiKH.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoaiKhachHang\\CreateLoaiKH.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\LoaiKhachHang\\CreateLoaiKH.cshtml",
+              "RelativeToolTip": "Views\\LoaiKhachHang\\CreateLoaiKH.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-04T07:24:34.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IndexCTDH.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\ChiTietDonHang\\IndexCTDH.cshtml",
+              "RelativeDocumentMoniker": "Views\\ChiTietDonHang\\IndexCTDH.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\ChiTietDonHang\\IndexCTDH.cshtml",
+              "RelativeToolTip": "Views\\ChiTietDonHang\\IndexCTDH.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T17:02:28.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\ChiTietDonHang\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ChiTietDonHang\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\ChiTietDonHang\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ChiTietDonHang\\Edit.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-22T17:04:10.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ChiTietDonHangController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\ChiTietDonHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChiTietDonHangController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\ChiTietDonHangController.cs",
+              "RelativeToolTip": "Controllers\\ChiTietDonHangController.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAwwKgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T16:58:59.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ChiTietDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "Models\\ChiTietDonHang.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\ChiTietDonHang.cs",
+              "RelativeToolTip": "Models\\ChiTietDonHang.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:15:54.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "Models\\SanPham.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\SanPham.cs",
+              "RelativeToolTip": "Models\\SanPham.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:15:13.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T03:43:32.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DonHang.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\DonHang.cs",
+              "RelativeDocumentMoniker": "Models\\DonHang.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\DonHang.cs",
+              "RelativeToolTip": "Models\\DonHang.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA4wB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T17:42:06.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T09:12:33.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DSKH.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\DSKH.cs",
+              "RelativeDocumentMoniker": "Models\\DSKH.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\DSKH.cs",
+              "RelativeToolTip": "Models\\DSKH.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T11:24:32.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoaiSanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\LoaiSanPhamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoaiSanPhamController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\LoaiSanPhamController.cs",
+              "RelativeToolTip": "Controllers\\LoaiSanPhamController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T20:42:23.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NhaCungCapController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\NhaCungCapController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NhaCungCapController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\NhaCungCapController.cs",
+              "RelativeToolTip": "Controllers\\NhaCungCapController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T16:36:06.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T11:04:59.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoaiSanPham.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\LoaiSanPham.cs",
+              "RelativeDocumentMoniker": "Models\\LoaiSanPham.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\LoaiSanPham.cs",
+              "RelativeToolTip": "Models\\LoaiSanPham.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:14:42.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NhaCungCap.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\NhaCungCap.cs",
+              "RelativeDocumentMoniker": "Models\\NhaCungCap.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\NhaCungCap.cs",
+              "RelativeToolTip": "Models\\NhaCungCap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:15:00.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LoaiKhachHangController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\LoaiKhachHangController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoaiKhachHangController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\LoaiKhachHangController.cs",
+              "RelativeToolTip": "Controllers\\LoaiKhachHangController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAwwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T03:40:17.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CryptoService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\CryptoService.cs",
+              "RelativeDocumentMoniker": "Services\\CryptoService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\CryptoService.cs",
+              "RelativeToolTip": "Services\\CryptoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T15:51:55.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\KhachHang\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\KhachHang\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\KhachHang\\Delete.cshtml",
+              "RelativeToolTip": "Views\\KhachHang\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T11:59:51.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "QLDHContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\QLDHContext.cs",
+              "RelativeDocumentMoniker": "Models\\QLDHContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\QLDHContext.cs",
+              "RelativeToolTip": "Models\\QLDHContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T02:10:19.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SanPhamController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "Controllers\\SanPhamController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAAAgwLQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T02:07:12.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "KhachHangService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\KhachHangService.cs",
+              "RelativeDocumentMoniker": "Services\\KhachHangService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Services\\KhachHangService.cs",
+              "RelativeToolTip": "Services\\KhachHangService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:03:33.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ChangePassViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\ChangePassViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePassViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\ChangePassViewModel.cs",
+              "RelativeToolTip": "Models\\ChangePassViewModel.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T16:20:24.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T17:29:38.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TaiKhoan.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\TaiKhoan.cs",
+              "RelativeDocumentMoniker": "Models\\TaiKhoan.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\TaiKhoan.cs",
+              "RelativeToolTip": "Models\\TaiKhoan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T10:41:56.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoaiKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\LoaiKhachHang.cs",
+              "RelativeDocumentMoniker": "Models\\LoaiKhachHang.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\LoaiKhachHang.cs",
+              "RelativeToolTip": "Models\\LoaiKhachHang.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T07:14:24.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T12:35:43.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-29T12:40:43.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T16:03:31.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ChangePass.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\ChangePass.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\ChangePass.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\Views\\Account\\ChangePass.cshtml",
+              "RelativeToolTip": "Views\\Account\\ChangePass.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAACBjwAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T16:19:07.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-28T17:02:08.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\F\\B\u1EA3o m\u1EADt CSDL\\QLDH\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-28T18:19:46.298Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

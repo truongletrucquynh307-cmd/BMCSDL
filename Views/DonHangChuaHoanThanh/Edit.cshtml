@@ -1,0 +1,63 @@
+﻿@model QLDH.Models.DonHang
+
+@{
+    ViewData["Title"] = "Cập nhật Đơn hàng chưa hoàn thành";
+    ViewData["ShowHeader"] = false;
+    ViewData["ShowFooter"] = false;
+}
+
+<!-- Topbar -->
+<div class="topbar" style="
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:50px;
+    background-color:#0d6efd;
+    color:white;
+    z-index:1000;
+    display:flex;
+    align-items:center;
+    padding:0 16px;
+">
+    <!-- Bên trái: QLDH + Xin chào -->
+    <div class="d-flex align-items-center">
+        <a href="@Url.Action("Dashboard", "Account")" style="color:white; text-decoration:none;">
+            <strong class="me-2">QLDH</strong>
+        </a>
+    </div>
+
+    <!-- Bên phải: nút Đăng xuất -->
+    <div class="d-flex align-items-center ms-auto">
+        <a class="btn btn-light btn-sm" data-bs-toggle="modal" data-bs-target="#logoutModal">Đăng xuất</a>
+    </div>
+</div>
+
+
+<div class="container-fluid" style="margin-top:70px;">
+
+<h2>Chỉnh sửa trạng thái đơn hàng</h2>
+
+<form asp-controller="DonHangChuaHoanThanh" asp-action="Edit" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="MADH" />
+
+    <div class="form-group">
+        <label>Mã đơn hàng</label>
+        <input class="form-control" asp-for="MADH" readonly />
+    </div>
+
+    <div class="form-group">
+        <label>Trạng thái</label>
+        <select asp-for="TRANGTHAI" class="form-control">
+            <option value="Đang xử lý">Đang xử lý</option>
+            <option value="Đã giao">Đã giao</option>
+            <option value="Đã hủy">Đã hủy</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary mt-3">Hủy</a>
+</form>
+</div>
+
